@@ -11,6 +11,10 @@ public class Animal {
 		this.species = species;
 		this.age = age;
 	}
+	
+	public Animal(String name) {
+		this.name = name;
+	}
 
 	public String getName() {
 		return name;
