@@ -6,7 +6,9 @@ public class Programa {
 
 	public static void main(String[] args) {
 		
-		Animal dog = new Animal("Totó", "dog", 2);
+		Animal dog = new Animal("Totó");
+		dog.setSpecies("dog");
+		dog.setAge(2);
 		
 		System.out.println("Hey, the animal is " + dog.getSpecies() + " its name is " + dog.getName() + " and its age is " + dog.getAge() +
 		" years old");
