@@ -30,6 +30,9 @@ public class Animal {
 		System.out.println("Barulho do animal: ");
 	}
 	
-	
+	public Boolean ehAdulto() {
+		
+		return age >= 1;
+	}
 
 }
