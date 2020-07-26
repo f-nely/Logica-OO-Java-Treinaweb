@@ -26,6 +26,9 @@ public class Animal {
 	}
 	
 	
+	public void emitirBarulho() {
+		System.out.println("Barulho do animal: ");
+	}
 	
 	
 
