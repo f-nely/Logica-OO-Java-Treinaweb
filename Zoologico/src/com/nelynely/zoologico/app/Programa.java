@@ -1,12 +1,12 @@
 package com.nelynely.zoologico.app;
 
-import com.nelynely.zoologico.classes.Animal;
+import com.nelynely.zoologico.classes.Dog;
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		Animal dog = new Animal("Totó");
+		Dog dog = new Dog("Totó");
 		dog.setSpecies("dog");
 		dog.setAge(2);
 		
