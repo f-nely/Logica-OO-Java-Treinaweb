@@ -40,9 +40,7 @@ public abstract class Animal {
 		this.age = age;
 	}
 
-	public void emitirBarulho() {
-		System.out.println("Barulho do animal: ");
-	}
+	public abstract void emitirBarulho();
 
 	public Boolean ehAdulto() {
 
