@@ -17,19 +17,21 @@ public class Programa {
 		" years old");
 		
 		if (dog.ehAdulto()) {
-			System.out.println("Dog is adult: \n");
+			System.out.println("Dog is adult: ");
 		} else {
 			System.out.println("Dog isn't adult: ");
 		}
+		dog.emitirBarulho();
 		
-		System.out.println("Hey, the animal is " + cat.getSpecies() + " its name is " + cat.getName() + " and its age is " + cat.getAge() +
+		System.out.println("\nHey, the animal is " + cat.getSpecies() + " its name is " + cat.getName() + " and its age is " + cat.getAge() +
 				" years old");
 				
 		if (cat.ehAdulto()) {
 			System.out.println("Cat is adult: ");
 		} else {
-			System.out.println("Cat isn't adult:: ");
+			System.out.println("Cat isn't adult: ");
 		}
+		cat.emitirBarulho();
 
 	}
 
