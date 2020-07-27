@@ -15,4 +15,10 @@ public class Cat extends Animal{
 		super(name,"cat", age);
 	}
 
+	@Override
+	public void emitirBarulho() {
+		System.out.println("Miado do gato: ");
+		
+	}
+
 }
