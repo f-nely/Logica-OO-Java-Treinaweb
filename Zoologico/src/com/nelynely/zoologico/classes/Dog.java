@@ -15,4 +15,10 @@ public class Dog extends Animal{
 		super(name, "dog", age);
 	}
 
+	@Override
+	public void emitirBarulho() {
+		System.out.println("Latido do cachorro: ");
+		
+	}
+
 }
